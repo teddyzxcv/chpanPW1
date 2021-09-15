@@ -2,11 +2,13 @@
 //  ViewController.swift
 //  chpanPW1
 //
-//  Created by Семён Кондаков on 15/09/2021.
-//  Copyright © 2021 Семён Кондаков. All rights reserved.
+//  Created by teddyzxcv on 15/09/2021.
+//  Copyright © 2021 teddyzxcv. All rights reserved.
 //
 
 import UIKit
+
+// Extension for UIColor to converty HEX color to SRGB.
 extension UIColor {
     convenience init(hex: Int) {
         self.init(
@@ -20,6 +22,7 @@ extension UIColor {
 }
 
 class ViewController: UIViewController {
+    // Generate array of HEX cahr.
     func randomCharacter() -> String? {
         let numbers = [0,1,2,3,4,5,6, 7, 8, 9]
         let letters = ["A","B","C","D","E","F"]
@@ -32,6 +35,7 @@ class ViewController: UIViewController {
         default: return nil
         }
     }
+    // Combine the array to string.
     func characterArrayToHexString(array: [String]) -> String {
         var hexString = ""
         for character in array {

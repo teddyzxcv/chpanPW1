@@ -2,10 +2,9 @@
 //  AppDelegate.swift
 //  chpanPW1
 //
-//  Created by Семён Кондаков on 15/09/2021.
-//  Copyright © 2021 Семён Кондаков. All rights reserved.
+//  Created by teddyzxcv on 15/09/2021.
+//  Copyright © 2021 teddyzxcv. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain
